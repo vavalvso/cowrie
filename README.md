@@ -36,7 +36,7 @@ The script will safely detach into the background. Whenever you want to see the 
 
 The project uses two plain text files to link the background collector and the terminal viewer together:
 
-1. Docker Output -> logger_daemon.sh -> Filters duplicates -> Saves clean data into all_logins.txt and all_commands.txt.
+1. Docker Output > logger_daemon.sh > Filters duplicates > Saves clean data into all_logins.txt and all_commands.txt.
 2. stats.sh -> Reads the last lines from all_logins.txt and all_commands.txt -> Displays them on your screen.
 
 Because of this separation, the viewer script never interacts with Docker directly and doesn't waste CPU parsing raw logs every time you check the stats. 
