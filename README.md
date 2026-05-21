@@ -1,6 +1,6 @@
 # Cowrie (Honeypot)
 
-This is a small project I made while learning Docker, Linux administration, and shell scripting. I deployed a Cowrie honeypot on my server to observe how automated automated bots scan internet ports.
+This is a small project I made while learning Docker, Linux administration, and shell scripting. I deployed a Cowrie honeypot on my server to observe how automated bots scan internet ports and trying to bruteforce logins, passwords and SSH-keys.
 
 ## The Problem
 As soon as the honeypot went live, brute-force bots started spamming it with thousands of identical login attempts and commands every minute. The text output from Docker quickly became a mess. 
