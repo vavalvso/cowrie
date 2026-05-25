@@ -48,7 +48,7 @@ function get_target() {
     idx = index($0, "CMD:")
     if (idx > 0) {
         cmd = substr($0, idx + 5)
-        out_file = "From: " target " | Typed by: " cmd
+        out_file = "From: " target " | Typed: " cmd
 
         if (!seen_cmd[out_file]++) {
             print out_file >> "/root/cyber_node/all_commands.txt"
